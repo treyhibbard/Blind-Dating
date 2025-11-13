@@ -1,2 +1,8 @@
-# Blind-Dating
-An anonymous display of real data gathered from a collaborative blind dating project.
+# Blind-Dating (anonymous submissions)
+Write ups and snippets of code / data frames used in a group project that led to real blind dates.
+
+In Spring 2025, friends Garrett, Trey, and Tyler worked on a blind dating project, involving the intersection between hospitality, math, and computer science. Tyler had been setting up a blind date night for the past 2 semesters already, but Trey had an interest in applying mathematics to the process to allow the matching process to be automated instead of manually done. Garrett helped greatly with applying the mathematics into code. We still created all of our questions and the methodology, which is what the repository is intended to show. The general concepts of the project are to use cosine similarity between resposnes followed by a maximum weight matching to pair people by their scores.
+
+Disclaimer: A lot of the data gathered in our surveys and analysis is private, pertaining to people's own beliefs and interests, but it has been scrubbed of any identifiers so we could share it here. This isn't all the code needed to execute the project, but enough to have an idea of how we made it work.
+
+If we were to repeat this project today, we would consider better practices, notably in data collection, as a google form created a very tedious file to index and pair questions up as our algorithm required. Additionally, with very high dimensional data and a comparably smaller dataset, there is definitely overfitting happening with the post survery, but it was a very fun and experimental project that involved great team collaboration, with one friend organizing the dates, one developing the math and model, and the other creating most of the code. 
